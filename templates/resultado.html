@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 100px; }
+    </style>
+</head>
+<body>
+    {% if pessoa %}
+        <h1>✅ A pessoa é: {{ pessoa }}!</h1>
+    {% else %}
+        <h1>❌ Não consegui adivinhar a pessoa!</h1>
+        <p>Talvez ela ainda não esteja cadastrada 😞</p>
+    {% endif %}
+    <a href="/">Tentar novamente</a>
+</body>
+</html>

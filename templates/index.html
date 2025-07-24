@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Akinator</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 100px; }
+        button { padding: 15px 30px; margin: 10px; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <h1>Pergunta {{ numero + 1 }}</h1>
+    <p>{{ pergunta }}</p>
+    <form method="POST">
+        <button name="resposta" value="s">Sim</button>
+        <button name="resposta" value="n">Não</button>
+    </form>
+</body>
+</html>

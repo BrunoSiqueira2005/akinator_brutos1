@@ -15,7 +15,8 @@ perguntas = [
     ("Ela aguenta beber mais de 2 latinhas?", None),  # zoeira
     ("Ela tá na coleira da Fefê?", "Pelebosta"),
     ("Já pegou a Sa trepiche?", "Franchico"),
-    ("Já perdeu umas coisas estranhas em Bariloche?", "Nera apeludo")
+    ("Já perdeu umas coisas estranhas em Bariloche?", "Nera apeludo"),
+    ("Palmeirense?", "GeBe")
 ]
 
 @app.route('/')
